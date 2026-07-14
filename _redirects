@@ -1,0 +1,8 @@
+# Fix duplicate URLs — redirect non-.html to .html versions
+/commercial-scaffolding       /commercial-scaffolding.html      301!
+/residential-scaffolding      /residential-scaffolding.html     301!
+/contractors                  /contractors.html                  301!
+/blog                         /blog.html                         301!
+/locations                    /locations.html                    301!
+/index                        /                                  301!
+/index.html                   /                                  301!
