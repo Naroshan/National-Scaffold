@@ -1,18 +1,21 @@
-# National Scaffold - LLMs.txt
-# https://nationalscaffold.co.uk
+# National Scaffold
 
-## Business
-National Scaffold is England's fixed-price scaffolding network connecting customers with vetted professional scaffolding contractors for residential and commercial projects.
+> England's fixed-price scaffolding network, connecting customers with vetted professional scaffolding contractors for residential and commercial projects. No hidden charges — the price agreed upfront is the price you pay.
+
+National Scaffold operates across London and England, matching enquiries to a vetted panel of scaffolding contractors and providing a single fixed price quote per job, covering roofing, chimney, extension, gutter/fascia and general access scaffolding.
 
 ## Services
-- Fixed price residential scaffolding
-- Fixed price commercial scaffolding
-- Roof scaffolding
-- Chimney scaffolding
-- Extension scaffolding
-- Gutter and fascia scaffolding
+- [Residential Scaffolding](https://nationalscaffold.co.uk/residential-scaffolding.html): Fixed price scaffolding for homes, including roofing, gutters, chimneys and extensions
+- [Commercial Scaffolding](https://nationalscaffold.co.uk/commercial-scaffolding.html): Fixed price scaffolding for offices, retail units, industrial sites and new builds
+- [Contractors](https://nationalscaffold.co.uk/contractors.html): Join the vetted network of scaffolding contractors across England
+- [Locations](https://nationalscaffold.co.uk/locations.html): Full directory of areas and services covered across England
+
+## Resources
+- [Blog](https://nationalscaffold.co.uk/blog.html): Scaffolding guides, pricing advice and industry insights
+- [How Much Does Scaffolding Cost](https://nationalscaffold.co.uk/blog/how-much-does-scaffolding-cost.html): Pricing guide for residential and commercial scaffolding
+- [Fixed vs Variable Price Scaffolding](https://nationalscaffold.co.uk/blog/fixed-vs-variable-price-scaffolding.html): Why fixed pricing avoids surprise invoices
 
 ## Contact
-Phone: 07487 306 939
-Email: quotes@nationalscaffold.co.uk
-Website: https://nationalscaffold.co.uk
+- Phone: 07487 306 939
+- Email: quotes@nationalscaffold.co.uk
+- Website: https://nationalscaffold.co.uk
