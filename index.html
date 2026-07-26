@@ -256,7 +256,7 @@
     .hero-bg { position: absolute; inset: 0; background: repeating-linear-gradient(90deg,transparent,transparent 58px,rgba(245,196,0,0.04) 58px,rgba(245,196,0,0.04) 60px), repeating-linear-gradient(0deg,transparent,transparent 58px,rgba(245,196,0,0.04) 58px,rgba(245,196,0,0.04) 60px), radial-gradient(ellipse 90% 70% at 50% 0%,rgba(245,196,0,0.10) 0%,transparent 70%); z-index: 0; }
     .hero-content { position: relative; z-index: 1; max-width: 900px; }
     .badge { display: inline-block; background: var(--yellow); color: var(--black); font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; padding: 6px 16px; border-radius: 2px; margin-bottom: 28px; animation: fadeUp 0.5s ease both; }
-    .hero h1 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(64px,12vw,140px); line-height: 0.92; color: var(--white); margin-bottom: 20px; animation: fadeUp 0.6s 0.1s ease both; }
+    .hero h1 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(44px,12vw,140px); line-height: 0.92; color: var(--white); margin-bottom: 20px; animation: fadeUp 0.6s 0.1s ease both; overflow-wrap: break-word; }
     .hero h1 span { color: var(--yellow); }
     .hero-sub { font-size: clamp(18px,3vw,24px); color: var(--muted); font-weight: 300; max-width: 580px; margin: 0 auto 18px; animation: fadeUp 0.6s 0.2s ease both; }
     .promise-line { font-size: 14px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--yellow); margin-bottom: 48px; animation: fadeUp 0.6s 0.3s ease both; }
@@ -265,6 +265,7 @@
     .cta-group { display: flex; flex-direction: column; gap: 14px; align-items: center; animation: fadeUp 0.6s 0.4s ease both; }
     @media (min-width: 520px) { .cta-group { flex-direction: row; justify-content: center; } }
     .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 18px 32px; border-radius: 4px; font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 600; letter-spacing: 0.02em; text-decoration: none; cursor: pointer; border: none; transition: transform 0.15s ease, filter 0.15s ease; white-space: nowrap; }
+    @media (max-width: 360px) { .btn { white-space: normal; text-align: center; } }
     .btn:hover { transform: translateY(-2px); filter: brightness(1.07); }
     .btn-whatsapp { background: var(--green); color: #fff; box-shadow: 0 4px 24px rgba(37,211,102,0.35); }
     .btn-call { background: var(--yellow); color: var(--black); box-shadow: 0 4px 24px rgba(245,196,0,0.3); }
@@ -345,7 +346,7 @@
     .reviews-section { padding: 80px 24px; background: var(--black); }
     .reviews-inner { max-width: 900px; margin: 0 auto; }
     .reviews-inner .section-title { margin-bottom: 40px; }
-    .review-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+    .review-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
     .review-card { background: var(--dark); border: 1px solid var(--border); border-radius: 8px; padding: 28px; display: flex; flex-direction: column; gap: 16px; transition: border-color 0.2s, transform 0.2s; }
     .review-card:hover { border-color: rgba(0,182,122,0.4); transform: translateY(-3px); }
     .review-card-top { display: flex; justify-content: space-between; align-items: center; }
