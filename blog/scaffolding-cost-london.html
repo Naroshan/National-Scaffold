@@ -65,7 +65,8 @@
     .article-body strong{color:var(--white);}
     .article-body a{color:var(--yellow);text-decoration:none;}
     .article-body a:hover{text-decoration:underline;}
-    .price-table{width:100%;border-collapse:collapse;margin:32px 0;background:var(--dark);border-radius:8px;overflow:hidden;}
+    .table-scroll{overflow-x:auto;margin:32px 0;-webkit-overflow-scrolling:touch;}
+    .price-table{width:100%;border-collapse:collapse;background:var(--dark);border-radius:8px;overflow:hidden;}
     .price-table th{background:var(--mid);color:var(--white);font-size:13px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;padding:14px 20px;text-align:left;}
     .price-table td{padding:14px 20px;font-size:15px;color:var(--muted);border-bottom:1px solid var(--border);}
     .price-table tr:last-child td{border-bottom:none;}
@@ -137,7 +138,7 @@
   <h2>London Scaffolding Prices in 2026</h2>
   <p>Scaffolding costs in London are typically 20-40% higher than the national average. Here's what you should expect to pay for common residential and commercial jobs across London in 2026:</p>
 
-  <table class="price-table">
+  <div class="table-scroll"><table class="price-table">
     <thead>
       <tr><th>Job Type</th><th>London Price</th><th>National Average</th></tr>
     </thead>
@@ -149,7 +150,7 @@
       <tr><td>Extension scaffolding</td><td class="price">£900 – £2,200</td><td>£700 – £1,800</td></tr>
       <tr><td>Commercial (small)</td><td class="price">£2,000 – £6,000</td><td>£1,500 – £4,000</td></tr>
     </tbody>
-  </table>
+  </table></div>
 
   <div class="callout">
     <p><strong>Note:</strong> Prices in Central London (zones 1-2) tend to be at the higher end of these ranges. Outer London boroughs and areas just outside the M25 are typically at the lower end.</p>

@@ -88,7 +88,8 @@
     .article-body strong{color:var(--white);}
     .article-body a{color:var(--yellow);text-decoration:none;}
     .article-body a:hover{text-decoration:underline;}
-    .comparison-table{width:100%;border-collapse:collapse;margin:32px 0;background:var(--dark);border-radius:8px;overflow:hidden;}
+    .table-scroll{overflow-x:auto;margin:32px 0;-webkit-overflow-scrolling:touch;}
+    .comparison-table{width:100%;border-collapse:collapse;background:var(--dark);border-radius:8px;overflow:hidden;}
     .comparison-table th{background:var(--mid);color:var(--white);font-size:13px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;padding:14px 20px;text-align:left;}
     .comparison-table td{padding:14px 20px;font-size:15px;color:var(--muted);border-bottom:1px solid var(--border);}
     .comparison-table tr:last-child td{border-bottom:none;}
@@ -178,7 +179,7 @@
   </div>
 
   <h2>Side by Side — Fixed Price vs Variable Price</h2>
-  <table class="comparison-table">
+  <div class="table-scroll"><table class="comparison-table">
     <thead>
       <tr><th>Factor</th><th>Fixed Price</th><th>Variable Price</th></tr>
     </thead>
@@ -191,7 +192,7 @@
       <tr><td>Budget planning</td><td class="good">✅ Simple and clear</td><td class="bad">❌ Difficult to forecast</td></tr>
       <tr><td>Dispute risk</td><td class="good">✅ Very low</td><td class="bad">❌ High — common source of disputes</td></tr>
     </tbody>
-  </table>
+  </table></div>
 
   <h2>The Hidden Costs of Variable Price Scaffolding</h2>
   <p>Here are the most common extra charges added to variable price scaffolding quotes:</p>
