@@ -93,3 +93,9 @@
     .faq-answer{font-size:15px;color:var(--muted);line-height:1.8;max-height:0;overflow:hidden;transition:max-height 0.35s ease,padding 0.35s ease;}
     .faq-item.open .faq-answer{max-height:300px;padding-bottom:20px;}
     .faq-answer a{color:var(--yellow);text-decoration:underline;}
+
+.local-area-info{max-width:860px;margin:40px auto;padding:28px 24px;background:var(--dark);border-left:4px solid var(--yellow);border-radius:0 8px 8px 0;}
+.local-area-info h2{font-size:1.35rem;font-weight:700;margin-bottom:16px;color:var(--white);}
+.local-area-info p{color:var(--text);line-height:1.75;margin-bottom:14px;}
+.local-area-info p:last-child{margin-bottom:0;}
+@media(max-width:640px){.local-area-info{padding:22px 18px;margin:28px auto;}}
